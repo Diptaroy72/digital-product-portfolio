@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: rgb(29, 27, 27);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo .logo-photo{
+    width: 120px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-left: 10px;
+    padding: 7px;
+    font-size: 18px;
+}
+.item:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid gray; */
+    height: 100vh;
+    background-image: url('images/background.png') , linear-gradient(45deg , rgb(10, 10, 10) , rgb(66, 47, 47));
+    color: white;
+}
+.header-title{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.header-text{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.about-heading{
+    font-size: 55px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services{
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray ;
+    border-radius: 2px;
+}
+.sevice-pic{
+    width: 50px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
